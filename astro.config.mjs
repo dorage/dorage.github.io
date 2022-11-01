@@ -6,6 +6,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://dorage.github.io',
-    base: '/dorage.github.io',
+    base: '/',
     integrations: [mdx(), sitemap()],
 });
