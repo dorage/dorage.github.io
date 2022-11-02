@@ -2,7 +2,7 @@
 layout: '../../layouts/BlogPost.astro'
 title: 'React는 어떻게 렌더링을 조정하는가?'
 stack: 'React'
-description: 'Lorem ipsum dolor sit amet'
+description: ''
 pubDate: 'Oct 18 2022'
 heroImage: '/images/placeholder/react.jpg'
 tags: ['React']

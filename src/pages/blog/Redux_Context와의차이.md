@@ -2,7 +2,7 @@
 layout: '../../layouts/BlogPost.astro'
 title: 'Context VS Redux'
 stack: 'Redux'
-description: 'Lorem ipsum dolor sit amet'
+description: ''
 pubDate: 'Oct 25 2022'
 heroImage: '/images/placeholder/redux.jpg'
 tags: ['Redux']

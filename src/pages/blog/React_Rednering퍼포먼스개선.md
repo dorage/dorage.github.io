@@ -2,7 +2,7 @@
 layout: '../../layouts/BlogPost.astro'
 title: 'Rendering Performance 개선'
 stack: 'React'
-description: 'Lorem ipsum dolor sit amet'
+description: ''
 pubDate: 'Oct 18 2022'
 heroImage: '/images/placeholder/react.jpg'
 tags: ['React']

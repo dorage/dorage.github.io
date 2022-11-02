@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "useState는 어떻게 구현이 되었을까?"
 stack: "React"
-description: "Lorem ipsum dolor sit amet"
+description: ""
 pubDate: "Oct 07 2022"
 heroImage: '/images/placeholder/react.jpg'
 tags: ["React"]

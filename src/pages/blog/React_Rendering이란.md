@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Rendering 이란 무엇인가"
 stack: "React"
-description: "Lorem ipsum dolor sit amet"
+description: ""
 pubDate: "Oct 07 2022"
 heroImage: '/images/placeholder/react.jpg'
 tags: ["React"]
