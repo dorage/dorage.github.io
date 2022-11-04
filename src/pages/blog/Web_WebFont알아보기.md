@@ -107,13 +107,17 @@ font는 언제 렌더링 되는가?
 
 그렇기에 동시에 브라우저는 레이아웃을 수행하고 페인트 과정을 거쳐 화면에 요소들을 그리는데 글꼴의 응답이 완료되지 않아 아직 사용할 수 없는 경우 브라우저에서는 텍스트 픽셀을 렌더링 하지 못할 수 있다.
 
-이는 font-display라는 CSS를 아직 사용 불가능한 폰트를 어떻게 조정할 것인지 결정하고, 빈 페이지가 표시되는 것을 막을 수 있다.
+preload 어트리뷰트를 통해 리소스의 우선순위를 지정하거나 font-display CSS 를 이용해 해결할 수 있다.
 
 [font-display - CSS&colon; Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display)
 
 ## Preload WebFont Resoures
 
-만약 구체적인 WebFont 가 호스팅 된 URL을 알고 있다면, <link rel=”preload”> 어트리뷰트를 통해 리소스 우선순위를 줄 수 있고, 이는 CSSOM이 구성되기 이전에 웹 폰트를 요청하게 만든다.
+만약 구체적인 WebFont 가 호스팅 된 URL을 알고 있다면,
+```html
+<link rel=”preload”>
+```
+어트리뷰트를 통해 리소스 우선순위를 줄 수 있고, 이는 CSSOM이 구성되기 이전에 웹 폰트를 요청하게 만든다.
 
 ## FOIT & FOUT
 
