@@ -30,7 +30,7 @@ hide: false
 | ![Serif](/images/blog/b8b99f1cbe544818989b16f8cec365f6/Untitled.png) | ![Sans-Serif](/images/blog/b8b99f1cbe544818989b16f8cec365f6/Untitled%201.png) |
 | --- | --- |
 | Serif | Sans-Serif |
-
+ 
 
 | Name | Generic type | Notes |
 | --- | --- | --- |
@@ -157,7 +157,7 @@ font-display는 폰트 다운로드의 생명 주기를 3개의 주요한 구간
 
 - **font block period**
     
-    글꼴이 아직 로드되지 않은 상태이다. 이 글꼴을 사용하는 요소들은 아무것도 보이지 않는 invisible fallback font face 로 렌더링 된다. 만약 글꼴이 이 구간에서 로드가 완료된다면, 글꼴이 정상적으로 사용될 것이다.
+    글꼴이 아직 로드되지 않은 상태이다. 이 글꼴을 사용하는 요소들은 아무것도 보이지 않는 invisible fallback font face로 렌더링 된다. 만약 글꼴이 이 구간에서 로드가 완료된다면, 글꼴이 정상적으로 사용될 것이다.
     
 - **font swap period**
     
