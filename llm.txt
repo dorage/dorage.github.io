@@ -2,8 +2,3 @@
 
 > KangHyun Lee(a.k.a Dorage)'s blog
 
-- [Markdown Style Guide](https://dorage.github.io/blog/markdown-style-guide/): Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
-- [Using MDX](https://dorage.github.io/blog/using-mdx/): Lorem ipsum dolor sit amet
-- [Third post](https://dorage.github.io/blog/third-post/): Lorem ipsum dolor sit amet
-- [Second post](https://dorage.github.io/blog/second-post/): Lorem ipsum dolor sit amet
-- [First post](https://dorage.github.io/blog/first-post/): Lorem ipsum dolor sit amet
